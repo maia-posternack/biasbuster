@@ -1,0 +1,48 @@
+<!--what you see when you open the chrome extension-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="lib/jquery-3.6.0.min.js"></script>
+      <script src="libraries/p5.js"></script>
+      <script src="libraries/p5.sound.min.js"></script>
+      <script src="libraries/rita-full.min.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p id='tit'>TITLE </p>
+    <p id='aut'>AUTHOR </p>
+    <button id="btn">click here to see other articles by this author</button>
+    <p id='works'> </p>
+    <p id='works1'> </p>
+    <p id='works2'> </p>
+    <p id='works3'> </p>
+
+  <p> below find where other users believe this article lies on the politcal spectum (left=libral, right = conservative) move the slider to where you believe it fits.  </p>
+  <p> <input type="range" min="1" max="100" value="50" id="myRange"> </p>
+  <p id='how'> </p>
+  <button id="saveButton2">save</button>
+  <p> COMMON ADJ USED BY THE AUTHOR  </p>
+  <p id='1'> </p>
+  <p id='2'> </p>
+  <p id='3'> </p>
+  <p id='4'> </p>
+  <p id='5'> </p>
+  <p> ADD A PUBLIC COMMENT BELOW </p>
+  <p><input type="text" id="userinput"> comment</p>
+  <p><input type="text" id="username"> name</p>
+  <button id="saveButton">save</button>
+  <p> COMMENT SECTION  </p>
+  <p id='current'> </p>
+
+  <script src="js/popup.js"></script>
+  <script src="js/website.js"></script>
+  <script src="js/author.js"></script>
+  <script src="js/comment.js"></script>
+  <script src="js/spectrum.js"></script>
+
+
+
+  </body>
+</html>
